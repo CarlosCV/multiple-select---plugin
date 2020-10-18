@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-lib":"ng-packagr -p projects/multiple-selection-search/ng-package.json"
   },
   "private": true,
   "dependencies": {
@@ -25,11 +26,12 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.8",
+    "@angular-devkit/build-ng-packagr": "~0.1000.8",
     "@angular/cli": "~10.0.8",
     "@angular/compiler-cli": "~10.0.14",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
@@ -38,6 +40,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~3.3.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^10.1.2",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",

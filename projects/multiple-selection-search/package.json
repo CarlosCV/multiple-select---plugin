@@ -1,0 +1,24 @@
+{
+  "name": "ng-multiple-selection",
+  "version": "0.0.1",
+  "author": "Carlos Cruz Venegas",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14",
+    "@angular/forms": ">=9.0.0 <10.0.0",
+    "@angular/localize": ">= 9.0.0 <10.0.0"
+  },
+  "keywords": [
+    "angular",
+    "select",
+    "ui-select",
+    "dropdown",
+    "multiselect",
+    "autocomplete",
+    "angular2"
+  ],
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

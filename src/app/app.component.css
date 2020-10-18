@@ -1,0 +1,40 @@
+
+.m-content{
+    margin: 0 auto;
+    max-width: 1350px;
+}
+.m-container{
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+
+.m-align-copy{
+    text-align: right;
+    float: right;
+}
+.m-align-copy button{
+    cursor: pointer;
+    margin-left: 15px;
+}
+#json{
+    display: inline-table;;
+    width: 59%;
+}
+.m-text-copy{
+    background-color:#B5EEBD;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    color: #4A4A4A ;
+    position: fixed;
+    top: 0;
+    
+}
+#code{
+    display: inline-block;
+    width: 85%;
+}
